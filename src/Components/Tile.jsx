@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { MyContext } from "./Abe.jsx";
 
 function Tile() {
+const myValue = useContext(MyContext); 
   return (
     <div>
-      const myValue = useContext(MyContext); return
-      {<div>Welcome : {myValue}</div>};
+      return{<div>Welcome : {myValue}</div>}
     </div>
   );
 }

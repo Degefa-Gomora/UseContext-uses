@@ -1,11 +1,15 @@
 import React from 'react'
 import Child from  "./Child.jsx"
-function Parent() {
+function Parent({value}) {
   return (
     <div>
-        <Child />
+      {/* props drill */}
+      {/* <Child value={value} /> */}
+
+      {/* usecontext */}
+      <Child />
     </div>
-  )
+  );
 }
 
 export default Parent;

@@ -1,11 +1,15 @@
 import React from 'react'
-import Tile from "./Grandchild.jsx"
-function Selam() {
+import Grandchild from './Grandchild.jsx'
+function Child({value}) {
   return (
     <div>
-        <Tile />
+      {/* props drill */}
+      {/* <Grandchild value={value} />
+       */}
+          {/* usecontext */}
+      <Grandchild/>
     </div>
-  )
+  );
 }
 
-export default Selam
+export default Child;
